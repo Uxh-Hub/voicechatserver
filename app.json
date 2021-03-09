@@ -1,0 +1,23 @@
+{
+    "name":"voicechatserver",
+    "description":"Webserver of voicechatbot",
+    "env":{
+        "SESSION":{
+            "description":"Telethon session from https://repl.it/@UxhHub/TelethonSessionVC",
+            "value":""
+        },
+        "API_ID":{
+            "description":"API ID from https://my.telegram.org",
+            "value":""
+        },
+        "API_HASH":{
+            "description":"API HASH from https://my.telegram.org",
+            "value":""
+        }
+    },
+    "buildpacks":[
+        {
+            "url":"heroku/python"
+        }
+    ]
+}
